@@ -1,0 +1,17 @@
+
+
+
+scritp de capture audio
+
+
+
+curl -u "274b4317-4fcb-4f3d-9684-6459fe822c51":"CdjChH24BXDL" -X POST --header "Content-Type: audio/wav" --header "Transfer-Encoding: chunked" --data-binary @"C:/data/perso/speechtotexten.wav" "https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?continuous=true"
+
+
+
+
+curl -u "274b4317-4fcb-4f3d-9684-6459fe822c51":"CdjChH24BXDL" -X POST ^
+--header "Content-Type: audio/wav" ^
+--header "Transfer-Encoding: chunked" ^
+--data-binary @"C:/data/perso/audio/speechtotexten.wav" ^
+"https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?continuous=true"

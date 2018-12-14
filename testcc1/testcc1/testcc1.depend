@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1523317292 source:d:\afpadev\testcc1\testcc1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1523365829 source:c:\data\code\testcc1\testcc1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

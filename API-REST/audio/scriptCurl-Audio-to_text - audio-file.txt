@@ -1,0 +1,12 @@
+
+
+
+scritp de capture audio
+
+
+
+curl -u "274b4317-4fcb-4f3d-9684-6459fe822c51":"CdjChH24BXDL" -X POST ^
+--header "Content-Type: audio/flac" ^
+--header "Transfer-Encoding: chunked" ^
+--data-binary @"C:/data/perso/audio/audio-file.flac" ^
+"https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?continuous=true"
